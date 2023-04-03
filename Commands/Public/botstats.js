@@ -6,7 +6,7 @@ const os = require("os");
 module.exports = {
 
  data : new SlashCommandBuilder()
-            .setName("status")
+            .setName("botstats")
             .setDescription("Shows the status of the bot."),
 
  /**
