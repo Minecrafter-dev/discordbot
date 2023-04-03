@@ -4,7 +4,7 @@ const {
     Client,
     EmbedBuilder,
   } = require("discord.js");
-  const link = "[INVITE ME](https://discord.com/api/oauth2/authorize?client_id=1087008389692915754&permissions=8&scope=bot)";
+  const link = "[INVITE ME](BOT INVITE URL)";
   module.exports = {
     data: new SlashCommandBuilder()
       .setName("invite")
