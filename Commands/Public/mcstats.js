@@ -40,7 +40,6 @@ module.exports = {
                 )
             interaction.editReply({ embeds: [embed] })
         }).catch(error => {
-            clearInterval(loadingInterval)
             const em = new EmbedBuilder()
                 .setColor("Red")
                 .setDescription("**Server offline or wrong ip**")
