@@ -21,7 +21,7 @@ const {
         (await options.getString("query")) || "How are you? - Not provided";
       const { Configuration, OpenAIApi } = require("openai");
       org = ""
-      key = "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"
+      key = "YOUR OPENAI TOKEN"
       const configuration = new Configuration({
         organization: org,
         apiKey: key,
